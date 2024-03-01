@@ -1,0 +1,80 @@
+body {
+  background-color: transparent !important;
+}
+
+.list-group-item-action:focus,
+.list-group-item-action:hover {
+  z-index: 1;
+  color: #495057;
+  text-decoration: none;
+  background-color: #f8f9fa;
+}
+.list-group {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  margin-bottom: 0;
+  border-radius: 0.25rem;
+  background: transparent;
+}
+.sidebar {
+  background: #0a2c50 !important;
+}
+.list-group-item.active {
+  z-index: 2;
+  color: #000;
+  background-color: #ffffff;
+}
+
+.list-group-item {
+  background-color: transparent;
+}
+
+.list-group-item-action:focus,
+.list-group-item-action:hover {
+  background-color: transparent !important;
+}
+.list-group-item {
+  background-color: transparent !important;
+}
+.list-group-item-action {
+  color: #ffffff !important;
+}
+article {
+  background: #fff;
+}
+
+article h5 {
+  color: #fff;
+}
+
+article span {
+  color: #fff;
+}
+
+article {
+  background: #0e3055;
+  box-shadow: 19px 1px 30px rgb(0 0 0 / 15%) !important;
+}
+.jumbotron.jumbotron-fluid.rounded.bg-white.border-0.shadow-sm.border-left.px-4 {
+  background: #0e3055 !important;
+}
+.jumbotron.jumbotron-fluid.rounded.bg-white.border-0.shadow-sm.border-left.px-4
+  h1,
+.jumbotron.jumbotron-fluid.rounded.bg-white.border-0.shadow-sm.border-left.px-4
+  p {
+  color: #fff !important;
+}
+i.bi.bi-box-arrow-right {
+    background: #0e3055;
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 20px !important;
+    width: max-content;
+    padding: 10px;
+    display: block;
+    margin-left: auto;
+    border-radius: 0px 0px 10px 10px;
+    margin-right: 16px;
+    cursor: pointer;
+}
